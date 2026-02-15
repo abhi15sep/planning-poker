@@ -8,7 +8,7 @@ interface ShareRoomProps {
 export default function ShareRoom({ roomId }: ShareRoomProps) {
   const [copied, setCopied] = useState(false)
 
-  const shareUrl = `${window.location.origin}/poker/room/${roomId}/join`
+  const shareUrl = `${window.location.origin}/room/${roomId}/join`
 
   const handleCopy = async () => {
     try {
