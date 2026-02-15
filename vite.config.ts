@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/poker/',
+  base: '/planning-poker/',
   build: {
     outDir: 'dist',
     sourcemap: true,
